@@ -131,8 +131,9 @@ nav {
 nav section {
     display: flex;
     max-width: 1360px;
-    width: 85%;
-    background-color: #2e312f;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(2px);
     padding: 15px 20px;
     border-radius: 20px;
     margin: auto;
