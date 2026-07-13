@@ -43,15 +43,17 @@ header section .logo {
     text-decoration: none;
     color: #2e312f;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 650;
     width: fit-content;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
 }
 
 header section .logo img {
     width: 30px;
+    display: flex;
+    align-items: center;
 }
 
 header section .headerlink {
