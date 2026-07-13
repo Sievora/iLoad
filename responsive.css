@@ -22,15 +22,18 @@
         flex-direction: column;
         gap: 30px;
         margin-top: 120px;
+
     }
 
     .hero .hero1 {
         width: 100%;
         gap: 10px;
+                align-items: center;
+        text-align: center;
     }
     .hero1 h1 {
     font-size: 23px;
-    line-height: 40px ;
+    line-height: 30px ;
     font-weight: ;
     }
 
@@ -56,6 +59,6 @@
         margin: auto;
     }
      .trusted div img {
-        width: 80px;
+        width: 25%;
      }
 }
