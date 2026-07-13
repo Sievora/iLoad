@@ -21,7 +21,7 @@ body {
 
 
 header {
-    position: fixed;
+    position: sticky;
     z-index: 9999;
     background-color: rgba(255, 255, 255,0.8);
     backdrop-filter: blur(5px);
@@ -170,7 +170,7 @@ nav a svg {
     justify-content: space-between;
     align-items: center;
     max-width: 1360px;
-    margin-top: 110px;
+    margin-top: 50px;
     position: relative;
     align-items: center;
     background-color: #fff;
