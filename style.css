@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    background-color: #fff;
 }
 
 * {
@@ -255,12 +256,17 @@ nav a svg {
 
 .trusted p {
     width:fit-content;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
 }
 .trusted div {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: fit-content;
     gap: 30px;
+   
 }
 
 .trusted div img {
