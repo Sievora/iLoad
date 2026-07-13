@@ -1,0 +1,272 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+    
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+
+
+
+header {
+    position: fixed;
+    z-index: 9999;
+    background-color: #fff;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header section {
+    width: 90%;
+    margin: auto;
+    max-width: 1360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+header section .logo {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header section .logo img {
+    width: 30px;
+}
+
+header section .headerlink {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+}
+
+header section .headerlink a {
+    text-decoration: none;
+    width: fit-content;
+    padding: 5px 15px;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header section .headerlink a:hover {
+    background-color: #ff810b3b;
+    scale: 1.1;
+}
+
+header section .headerlink a:hover svg {
+    stroke:#000;
+}
+
+header section .headerlink a svg {
+    stroke:#ff800b;
+}
+
+.dandm {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+header section .download {
+    text-decoration: none;
+    color: #ff800b;
+    font-weight: 400;
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s ease;
+
+}
+
+header section .download svg {
+    fill:#3DDC84;
+    transition: 0.3s ease;
+}
+
+header section .download:hover {
+    background-color: #ff810b52;
+    color: #000;
+    scale: 1.1;
+}
+
+header section .download:hover svg{
+    fill: #000;
+}
+
+nav {
+    position: fixed;
+    max-width: 1360px;
+    margin: auto;
+    display: none;
+    width: 100%;
+    bottom: 30px;
+    z-index: 9999;
+    transition: 0.5s ease;
+}
+
+nav section {
+    display: flex;
+    max-width: 1360px;
+    width: 85%;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav a {
+    padding: 5px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease;
+
+}
+
+nav a:active {
+    background-color: #ff800b;
+    scale: 1.1;
+}
+
+nav a svg {
+    stroke:#fff;
+}
+
+
+
+.hero {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1360px;
+    margin-top: 110px;
+    position: relative;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.hero .hero1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-items: left;
+}
+
+
+
+.hero .hero1 .firstp {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+    padding: 6px 6px;
+    background-color: #f7f2ee;
+    color: #ff800b;
+    font-size: 11px;
+    border-radius: 12px;
+}
+
+.hero1 h1 {
+    font-size: 30px;
+    color: #2E312F;
+    font-weight: 650;
+    letter-spacing: 0;
+    line-height: auto;
+    line-height: 50px ;
+    margin-top: 10px;
+}
+
+.hero1 h1 span {
+    color: #ff800b;
+}
+
+
+.hero1 .secondp {
+    color: #3D3A3A;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.hero1 .play{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.hero1 .play img {
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+.hero2 {
+    width: 50%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.hero2 img {
+    width: 100%;
+    object-fit: cover;
+    background-color: #fff;
+}
+
+
+.trusted {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 1360px;
+    margin:auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.trusted p {
+    width:fit-content;
+}
+.trusted div {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 30px;
+}
+
+.trusted div img {
+    width: 100px;
+    
+}
+
