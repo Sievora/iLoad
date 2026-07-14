@@ -42,11 +42,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const constructionOverlay = document.getElementById('constructionOverlay');
     const showConstructionOverlay = () => {
         document.body.classList.add('overlay-active');
-        if (constructionOverlay) constructionOverlay.classList.add('show');
+        if (constructionOverlay) constructionOverlay.classList.remove('hidden');
     };
     const hideConstructionOverlay = () => {
         document.body.classList.remove('overlay-active');
-        if (constructionOverlay) constructionOverlay.classList.remove('show');
+        if (constructionOverlay) constructionOverlay.classList.add('hidden');
     };
 
     if (constructionOverlay) {
