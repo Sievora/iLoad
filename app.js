@@ -38,9 +38,24 @@ document.addEventListener('DOMContentLoaded', () => {
     counters.forEach((counter) => {
         observer.observe(counter);
     });
-});
-   
 
+    const constructionOverlay = document.getElementById('constructionOverlay');
+    const showConstructionOverlay = () => {
+        document.body.classList.add('overlay-active');
+        if (constructionOverlay) constructionOverlay.classList.add('show');
+    };
+    const hideConstructionOverlay = () => {
+        document.body.classList.remove('overlay-active');
+        if (constructionOverlay) constructionOverlay.classList.remove('show');
+    };
+
+    if (constructionOverlay) {
+        showConstructionOverlay();
+        constructionOverlay.addEventListener('click', () => {
+            hideConstructionOverlay();
+        });
+    }
+});
 
 // ============ Language dropdown ============
 const langSelect = document.getElementById('langSelect');
