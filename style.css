@@ -49,7 +49,7 @@ header section .logo {
     font-weight: 650;
     width: fit-content;
     display: flex;
-    gap: 5px;
+    gap: 0px;
     align-items: center;
 }
 
@@ -93,12 +93,12 @@ header section .headerlink a svg {
 .headerlink2 {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
     width: fit-content;
 }
 .lang-select{ position: relative; }
 .lang-select__btn{
-  display:flex; align-items:center; gap:6px;
+  display:flex; align-items:center; gap:3px;
   background:none; border:1px solid #2e312f6e; border-radius: 12px;
   padding:8px 5px;   
   cursor:pointer; transition: 0.3s ease;
@@ -154,7 +154,7 @@ header section .download {
     border-radius: 10px;
     display:flex;
     align-items: center;
-    gap: 10px;
+    gap: 4px;
     transition: 0.3s ease;
     border: 1px solid transparent;
 }
@@ -167,7 +167,7 @@ header section .download svg {
 header section .download:hover {
     background-color: #ff810b52;
     color: #000;
-    scale: 1.05;
+    
     border: 1px solid transparent;
 }
 
@@ -176,7 +176,7 @@ header section .download:hover {
 header section .download:hover svg{
     fill: #000;
     scale: 2.1;
-    filter: drop-shadow(-10px 0px 1px rgba(0,0,0,0.5));
+    filter: drop-shadow(-10px 0px 1.5px rgba(65, 65, 65, 0.5));
 }
 
 nav {
