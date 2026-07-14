@@ -142,7 +142,7 @@ header section .headerlink a svg {
   transition: .3s ease;
 }
 .lang-select__menu li:hover{ background:#ff810b3b; scale: 1.05; }
-.lang-select__menu li[aria-selected="true"]{ color: var(--indigo); font-weight: 700; background: var(--paper); }
+.lang-select__menu li[aria-selected="true"]{ background: #ff810b52; color: #000; }
 
 header section .download {
     text-decoration: none;
