@@ -50,7 +50,6 @@ const langCurrent = document.getElementById('langCurrent');
 
 const translations = {
   en: {
-    download: 'Get App',
     heroTagline: 'Anywhere, Anytime <span>🚀🔥</span>',
     heroTitle: 'Your <span>Entire City</span>, Delivered to Your <span>Doorstep</span>',
     heroDescription: 'We are dedicated to moving whatever you need, whenever you need it, ensuring your items arrive safely while giving you your day back.',
@@ -59,7 +58,6 @@ const translations = {
     trustedPartners: 'Partners'
   },
   fr: {
-    download: 'Obtenir l\'application',
     heroTagline: 'Partout, à tout moment <span>🚀🔥</span>',
     heroTitle: 'Votre <span>ville entière</span>, livrée à votre <span>porte</span>',
     heroDescription: 'Nous sommes dédiés à déplacer tout ce dont vous avez besoin, quand vous en avez besoin, en veillant à ce que vos articles arrivent en toute sécurité tout en vous laissant votre journée.',
@@ -68,7 +66,6 @@ const translations = {
     trustedPartners: 'Partenaires'
   },
   pt: {
-    download: 'Obter o App',
     heroTagline: 'Em qualquer lugar, a qualquer hora <span>🚀🔥</span>',
     heroTitle: 'Sua <span>cidade inteira</span>, entregue na sua <span>porta</span>',
     heroDescription: 'Estamos dedicados a mover o que você precisa, quando você precisa, garantindo que seus itens cheguem em segurança enquanto devolvemos o seu dia.',
@@ -77,7 +74,6 @@ const translations = {
     trustedPartners: 'Parceiros'
   },
   sw: {
-    download: 'Pata Programu',
     heroTagline: 'Popote, wakati wowote <span>🚀🔥</span>',
     heroTitle: 'Mji wako mzima, ukiletwa kwa <span>mlango wako</span>',
     heroDescription: 'Tumejitolea kusafirisha chochote unachohitaji, wakati wowote unachohitaji, tukihakikisha vitu vyako vinawafikia salama huku tukirudisha siku yako.',
